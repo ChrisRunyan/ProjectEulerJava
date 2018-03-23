@@ -16,16 +16,16 @@ package edu.ilstu;
  */
 public class Problem1 {
 	public static void main(String[] args) {
-		int total=0;
+		int sum=0;
 		
 		System.out.println(" -- Project Euler: Problem 1 --\n");
 		
 		for(int i=0; i<(1000-1); i++) {
 			if((i+1)%3 == 0 || (i+1)%5 == 0) {
-				total += (i+1);
+				sum += (i+1);
 			}
 		}
 		
-		System.out.println("The sum of all the multiples of 3 or 5 below 1000 is " + total + ".");
+		System.out.println("The sum of all the multiples of 3 or 5 below 1000 is " + sum + ".");
 	}
 }
